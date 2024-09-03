@@ -1,0 +1,15 @@
+[package]
+name = "rust-csv"
+description = "CSV file read & write using pure rust code."
+version = "0.1.0"
+authors = ["mdmahikaishar <mahikaishar@gmail.com>"]
+edition = "2021"
+keywords = ["csv", "file", "spreadsheet", "read", "write"]
+github = "github.com/mdmahikaishar/rust-csv"
+license = "GPL-2.0"
+readme = "README.md"
+include = ["src/**", "Cargo.toml", "README.md"]
+
+[lib]
+name = "rust_csv"
+path = "src/lib.rs"
